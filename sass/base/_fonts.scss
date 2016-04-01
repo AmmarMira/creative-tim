@@ -1,0 +1,70 @@
+$fontFamily: 'Open Sans', "Helvetica Neue", Helvetica, sans-serif;
+.huge-headline{
+	font-size: 22px;
+	@include screen('desktop') {
+	 	font-size: 100px;
+	}
+}
+.xl-h{
+	font-size: 20px;
+	@include screen('desktop') {
+	 	font-size: 36px;
+	}
+}
+h1,
+.h1{
+	@include screen('tablet') {
+	 	font-size: 28px;
+	}
+	font-size: 20px;
+	
+}
+h2,
+.h2{
+	font-size: 26px;
+}
+h3,
+.h3{
+	@include screen('tablet') {
+	 	font-size: 24px;
+	}
+	font-size: 18px;
+	
+}
+h4,
+.h4{
+	@include screen('tablet') {
+	 	font-size: 22px;
+	}
+	
+	font-size: 18px;
+}
+h5,
+.h5{
+	font-size: 20px;
+}
+h6,
+.h6{
+	font-size: 18px;
+}
+p,
+.p{
+	font-size: 16px;
+	line-height: 24px;
+}
+p.sm{
+	font-size: 14px;
+	line-height: 20px;
+}
+p.lg{
+	font-size: 18px;
+	font-size: 24px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+	margin: 0;
+	padding: 0;
+}
+.navbar-brand,
+.brand-text{
+	font-family: Pacifico;
+}

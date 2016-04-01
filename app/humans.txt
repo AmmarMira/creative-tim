@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+    Husam Alrubaye UX Designer & Front-End Developer husamui.com
+
+# THANKS
+
+    <name>
+    Husam Alrubaye UX Designer & Front-End Developer husamui.com
+
+# TECHNOLOGY COLOPHON
+
+    SASS, HTML5, Gulp, Bootstrap3,jQuery
+    Apache Server Configs

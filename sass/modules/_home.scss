@@ -1,0 +1,157 @@
+.about{
+	padding: 100px 0 0 0;
+	.txtContainer{
+		text-align: center;
+		p{
+			float: left;
+		}
+	}
+	.gallary{
+		.gallaryRow{
+			height: 900px;
+			float: left;
+			@include screen(mobile) {
+				// height: 900px;
+			}
+
+			.imgWrap{
+				height: 400px;
+				overflow: hidden;
+				float: none;
+				margin: 5% 0;
+				@include screen (desktop) {
+					float: left;
+				}
+				img{
+					width: 100%;
+				}
+			}
+		}
+		.gallaryRow:nth-of-type(2){
+			height: 1000px;
+			overflow: hidden;
+			.imgWrap{
+				height: 28%;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+.whatWeDo{
+	text-align: center;
+	.card{
+		float: left;
+		padding: 50px;
+		span.icon{
+			font-size: 5.5em;
+			color: $Desert;
+		}
+		h1{
+			padding: 20px 0;
+
+		}
+	}
+}
+.ourFamous{
+	.project{
+		p{
+			font-size: 12px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+.quotesContainer{
+	q{
+		quotes: "« " " »";
+		font-size: 26px;
+		color: $GrayTxt;
+		float: left;
+	&:before{
+		content: open-quote;
+	}
+	&:after{
+		content: close-quote;
+	}
+}
+	ul.quotes{
+		margin: 80px 0;
+		text-align: center;
+		display: inline-block;
+		a{
+			color: $Night;
+			font-size: 18px;
+			&:hover{
+				text-decoration: none;
+			}
+			li{
+				list-style: none;
+				float: none;
+				padding: 20px;
+				@include screen(mobile) {
+					float: left;
+					padding: 0 20px;
+				}
+			}
+			.actv{
+				color: $Desert;
+				border-bottom: 2px solid $Desert;			
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+.thumbnail{
+	border: none;
+	img{
+		border: 3px solid $Desert;
+		width: 120px;
+	}
+	h3{
+		margin: 20px 0;
+	}
+	p{
+		border-bottom: 1px solid rgba($GrayTxt,0.2);
+		font-size: 12px;
+	}
+	a{
+		color: $GrayTxt;
+		font-size: 20px;
+		&:hover{
+			text-decoration: none;
+			color: $Desert;
+		}
+	}
+}
+
+.numbers{
+	h6{
+		padding: 25px 0;
+	}
+	h1.number{
+		color: $Desert;
+		font-family: 'Poiret One', cursive;
+		font-size: 38px;
+	}
+}
+
+
+

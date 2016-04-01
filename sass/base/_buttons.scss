@@ -1,0 +1,15 @@
+a.liveView, a.freeDown:hover{
+	background-color: $Default;
+	color: $GrayTxt;
+	border-color: $GrayTxt;
+	border-radius: 30px;
+    -webkit-transition: background-color 1s ease-out;
+
+}
+
+a.freeDown, a.liveView:hover{
+	background-color: $GrayTxt;
+	color: $Default;
+	border-color: $Default;
+	border-radius: 30px;
+}

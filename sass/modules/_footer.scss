@@ -1,0 +1,43 @@
+
+#map{
+  width: 100%;
+  height: 500px;
+}
+
+.footer{
+  background-color: $Night;
+  color: $GrayTxt;
+  @include screen (mobile) {
+    height: 70px;
+    line-height: 70px;
+  }
+  .footerNav{
+    ul{
+      list-style: none;
+        a{
+          color: $GrayTxt;
+          li{           
+            padding: 10px 20px;
+            @include screen (mobile) {
+              float: left;
+            }
+          }
+        }
+    }
+  }
+  p{
+    line-height: 70px;
+    color: $Default;
+    font-size: 13px;
+    text-align: center;
+  }
+  .socialMedia{
+    a{
+      color: $GrayTxt;
+      font-size: 22px;
+      &:hover{
+          text-decoration: none;
+        }
+      }
+  }
+}

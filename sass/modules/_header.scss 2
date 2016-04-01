@@ -1,0 +1,68 @@
+.main-bg{
+	height: 500px;
+	position: relative;
+	@include screen (mobile) {
+		height: 100vh;
+		width: 100%;
+	}
+	.bg-img{
+		background-image: url(../img/bg-img.jpeg);
+		background-size: cover;
+		float: left;
+		width: 100%;
+		height: 100%;
+	    background-position: 50% 50%;
+	    .overlay{
+			width: 100%;
+			height: 100%;
+			background: rgba($Night,0.4);		    
+			.bg-container{
+				.container{
+					.logo-container{
+						a.navbar-brand{
+							font-family: 'Poiret One', cursive;
+							color: $Default;
+							font-size: 20px;
+							letter-spacing: 3px;
+							margin: 20px 0;
+							float: left;
+						}
+					}
+				}
+				.txtContainer{
+					
+					h1{
+						color: $Default;
+						@include screen (mobile) {
+						font-size: 130px;
+						font-family: 'Poiret One', cursive;
+						letter-spacing: 10px;	
+						}
+					}
+					h4{
+						color: $Default;
+						margin: 10px 0;
+						text-align: center;
+						float: left;
+						@include screen (mobile) {
+							margin: 30px 0;
+							text-align: center;
+						}
+					}
+					.separator-container{
+						.separatorLine, .separatorDot{
+							background-color: $Default;
+						}
+					}
+				}
+				span.icon-arrow-circle-o-down{
+					color: $Default;
+					font-size: 55px;
+					position: absolute;
+					bottom: 30px;
+					left: 50%;
+				}
+			}	
+	    }		
+	}
+}

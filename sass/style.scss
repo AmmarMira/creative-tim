@@ -1,0 +1,24 @@
+// This file will import all the scss patricl files and
+// put them here and by using Gulp task runner will genragte
+// a style.css file contain all our css that convertated from sass.
+// Happy Coding
+// Auther: Husam Alrubaye
+
+//-----------------------------------------------------------------
+// Base files
+//-----------------------------------------------------------------
+
+@import 'base/mixins';
+@import 'base/fonts';
+@import 'base/colors';
+@import 'base/buttons';
+@import 'base/global';
+@import 'base/components';
+
+//-----------------------------------------------------------------
+// Modules files
+//-----------------------------------------------------------------
+
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/home';
